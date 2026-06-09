@@ -2,6 +2,7 @@
   "comment": "請複製此檔案為 workflow-config.json 並填入真實資料",
   "notebook_id": "",
   "processed_state_path": "workflow/processed-state.json",
+  "schedule_enabled": false,
   "defaults": {
     "max_per_channel": 3,
     "max_videos_per_run": 20,

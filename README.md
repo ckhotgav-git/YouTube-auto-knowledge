@@ -50,8 +50,8 @@ YouTube-auto-knowledge/
 
 ## 作者
 
-- **點哥** — 原始構想與需求
-- **[未來腦力研究社](https://www.youtube.com/@user-io6to2ls9y)** — 開發與維護
+- **點哥** (FB: [jshpapa](https://facebook.com/jshpapa)) — 原始構想與需求
+- **[未來腦力研究社](https://think-clue.blogspot.com/)** — 開發與維護
 
 ## 授權
 

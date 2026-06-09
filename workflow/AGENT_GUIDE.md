@@ -131,4 +131,11 @@ nlm login
 
 ---
 
+---
+
+## 開發者
+
+- **點哥** (FB: [jshpapa](https://facebook.com/jshpapa)) — 原始構想與需求
+- **[未來腦力研究社](https://think-clue.blogspot.com/)** — 開發與維護
+
 > 最後更新：2026-06-09

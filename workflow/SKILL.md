@@ -108,6 +108,20 @@ nlm infographic create <ID> --source-ids <報告ID> --language zh-TW --confirm
 
 ---
 
+## 排程執行模式
+
+當使用者說「排程檢查」或「執行 YT 工作流排程」：
+
+```powershell
+powershell -ExecutionPolicy Bypass -File "scripts\schedule-run.ps1"
+```
+
+此模式**不互動、使用設定檔預設值**，結束後回報摘要。
+
+> ⚠️ 排程**預設為關閉**。需使用者手動在 `workflow\workflow-config.json` 將 `schedule_enabled` 設為 `true`，並依 `docs\SCHEDULE_SETUP.md` 設定 Windows 工作排程器。
+
+---
+
 ## 安全規則（不可違反）
 
 - ❌ 不得將 API Key、Token、密碼寫入任何檔案
@@ -131,3 +145,10 @@ nlm infographic create <ID> --source-ids <報告ID> --language zh-TW --confirm
 - `docs\USAGE.md`：使用說明
 - `docs\DEVELOPMENT_LOG.md`：開發日誌
 - `SECURITY.md`：安全性政策
+
+---
+
+## 開發者
+
+- **點哥** (FB: [jshpapa](https://facebook.com/jshpapa)) — 原始構想與需求
+- **[未來腦力研究社](https://think-clue.blogspot.com/)** — 開發與維護

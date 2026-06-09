@@ -1,6 +1,6 @@
 # 開發日誌 — YouTube Auto Knowledge
 
-> 作者：**點哥** & **未來腦力研究社**
+> 作者：**點哥** (FB: [jshpapa](https://facebook.com/jshpapa)) & **[未來腦力研究社](https://think-clue.blogspot.com/)**
 > 專案開始：2026-06-09
 
 ---
