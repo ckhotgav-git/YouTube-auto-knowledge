@@ -86,7 +86,7 @@ foreach ($file in $targetFiles) {
     $lineNum++
     foreach ($pattern in $secretPatterns) {
       if ($line -match $pattern) {
-        Write-Host "  [WARN] $file:$lineNum - 偵測到可能的機密 ($($Matches[0].Substring(0, [Math]::Min(30, $Matches[0].Length))))" -ForegroundColor Yellow
+        Write-Host ("  [WARN] $file" + ":" + "$lineNum - 偵測到可能的機密 ($($Matches[0].Substring(0, [Math]::Min(30, $Matches[0].Length))))") -ForegroundColor Yellow
         $foundIssues++
         break
       }
