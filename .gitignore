@@ -1,0 +1,51 @@
+# ====================================================
+# YouTube Auto Knowledge — .gitignore
+# ====================================================
+
+# ---- 機密資料（永不提交）----
+*.key
+*.pem
+*.p12
+*.pfx
+*.env
+.env.*
+*.cred
+credentials.json
+client_secret*.json
+service-account*.json
+
+# ---- API Keys / Tokens ----
+*.token
+*.apitoken
+auth.json
+auth_tokens.json
+cookies.txt
+
+# ---- NotebookLM / YT Workflow 執行時資料 ----
+workflow/processed-state.json
+workflow/workflow-config.json
+logs/
+temp-*
+
+# ---- Python / Node ----
+__pycache__/
+*.pyc
+node_modules/
+.venv/
+venv/
+
+# ---- OS ----
+Thumbs.db
+.DS_Store
+Desktop.ini
+
+# ---- IDE ----
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+
+# ---- 編輯器暫存 ----
+*.bak
+*.tmp
